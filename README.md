@@ -1,5 +1,9 @@
 # 💰 PayTrack
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/sunadrg/PayTrack/refs/heads/main/app/src/main/res/drawable/paytrack.png" alt="PayTrack Logo" width="200"/>
+</p>
+
 **PayTrack** is a modern Android application designed to help users **track and manage their payment transactions** with an **offline-first architecture** and a **seamless user experience**.
 
 ---
