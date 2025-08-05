@@ -110,7 +110,7 @@ A simple **PHP + MySQL** webpage has been developed to simulate backend operatio
 This panel allows adding, editing, and deleting payment records, enabling the app to display **real-time updates**.
 
 ### 🔗 **Live Demo:** [Open Admin Panel](https://linkable.in/paytrack)  
-📦 **Backend Source Code:** [View on GitHub](https://github.com/sunadrg/paytrack-backend)  
+📦 **Backend Source Code:** [View on GitHub](https://github.com/sunadrg/PayTrack_Admin_Panel)  
 
 ### 🔹 Features
 - Add new payment records
