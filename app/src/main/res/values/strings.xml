@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Paytrack</string>
+    <string name="api_end_point">https://linkable.in/paytrack/fetch_transactions.php</string>
+</resources>

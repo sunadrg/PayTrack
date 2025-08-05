@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/paytrack"
+            tools:ignore="MissingConstraints" />
+
+    </RelativeLayout>
+
+    <!-- Loading Spinner Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/_24sdp">
+
+        <!-- Custom Spinner -->
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/spinner"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:indeterminate="true"
+            app:indicatorColor="#2196F3"
+            app:trackColor="#E3F2FD"
+            app:trackThickness="@dimen/_4sdp"
+            app:indicatorSize="@dimen/_48sdp" />
+
+        <!-- Alternative: Animated Spinner (uncomment to use) -->
+        <!--
+        <ImageView
+            android:id="@+id/animatedSpinner"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:src="@drawable/pulse_animation"
+            android:background="@drawable/pulse_animation" />
+        -->
+
+        <!-- Loading Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:text="Loading..."
+            android:textColor="#666666"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="sans-serif-light"
+            android:alpha="0.8" />
+
+        <!-- App Version or Tagline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:text="Paytrack v1.0"
+            android:textColor="#999999"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="sans-serif-light"
+            android:alpha="0.6" />
+
+    </LinearLayout>
+
+</LinearLayout>
